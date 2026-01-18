@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: lightblue;
+}
+
+footer {
+    justify-self: flex-end;
+    background-color: orange;
+}
