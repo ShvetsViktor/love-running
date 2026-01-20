@@ -90,9 +90,18 @@ main {
     margin-top: 47px;
 }
 
-footer {
-    justify-self: flex-end;
-    background-color: orange;
+#social-network {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social-network i {
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 @media screen and (min-width : 768px) {
